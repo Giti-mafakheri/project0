@@ -1,0 +1,52 @@
+#playAgain{
+  color: red;
+}
+.container{
+  width:45%;
+  background-color: #ccc;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.board{
+  margin: 0 auto;
+  padding: 1em;
+}
+
+
+
+
+
+div.results{
+
+  width:40%;
+  background-color: #ccc;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 1em;
+  border: 3px solid #73AD21;
+  text-align: center;
+}
+.right {
+  border-left: 7px solid rgb(255, 255, 153);
+}
+.left{
+  border-right: 3px solid rgb(255, 255, 153);
+}
+.top {
+  border-bottom: 3px solid rgb(255, 255, 153);
+}
+.bottom {
+  border-top: 7px solid rgb(255, 255, 153);
+}
+.square {
+
+  width: 6em;
+  height: 60px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 75px;
+  background: #d46aef;
+}
