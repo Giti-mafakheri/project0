@@ -2,7 +2,10 @@
   color: red;
 }
 .container{
-  width:45%;
+  background-image: url(../images/paper.jpg);
+  background-repeat: no-repeat;
+  max-width: 920px;
+  width:60%;
   background-color: #ccc;
   margin: 0 auto;
   padding: 1em;
@@ -13,13 +16,28 @@
   margin: 0 auto;
   padding: 1em;
 }
+#image{
+  width:  6em;
+  height: 6em;
+}
+main{
+  position: relative;
+}
 
-
-
-
+h1{
+  text-align: center;
+    line-height: 89px;
+}
+.x{
+  background-image: url(../images/x.png);
+  background-repeat: no-repeat;
+}
+.o{
+  background-image: url(../images/o.png);
+  background-repeat: no-repeat;
+}
 
 div.results{
-
   width:40%;
   background-color: #ccc;
   margin: 0 auto;
@@ -32,10 +50,10 @@ div.results{
   border-left: 7px solid rgb(255, 255, 153);
 }
 .left{
-  border-right: 3px solid rgb(255, 255, 153);
+  border-right: 7px solid rgb(255, 255, 153);
 }
 .top {
-  border-bottom: 3px solid rgb(255, 255, 153);
+  border-bottom: 7px solid rgb(255, 255, 153);
 }
 .bottom {
   border-top: 7px solid rgb(255, 255, 153);
@@ -43,10 +61,13 @@ div.results{
 .square {
 
   width: 6em;
-  height: 60px;
+  height: 6em;
   text-align: center;
   margin: 0;
   padding: 0;
   line-height: 75px;
-  background: #d46aef;
+}
+#messageBox{
+  color: red;
+  font-size: 40px;
 }
