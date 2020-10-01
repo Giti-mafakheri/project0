@@ -9,3 +9,6 @@
  * HTML
  * CSS
  * jQuery
+ 
+__you can have access to the game through Github on the below address__
+[TicTacToe](https://giti-mafakheri.github.io/project0/)
