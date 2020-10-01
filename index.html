@@ -12,18 +12,28 @@
   <div class="container">
     <header>
         <h1>Tic Tac Toe</h1>
-        <h2> ""</h2>
     </header>
     <main >
       <script src="js/jquery.js"></script>
       <script src="js/index.js"></script>
       <script src="js/ticJQ.js"></script>
-      <table class="board">
 
+
+<table class="set">
+  <tr class="tablex">
+    <td class="setsq" id="sxx"></td>
+  </tr>
+  <tr class ="tableo">
+    <td class="setsq" id="soo"></td>
+  </tr>
+</table>
+<div id ="messageBox"></div>
+
+
+
+      <table class="board">
     <tr>
-      <td>
-        <div id="0" class="left top square"></div>
-      </td>
+      <td id="0" class="left top square"></td>
       <td id="1" class="left top square"></td>
       <td id="2" class=" top square"></td>
     </tr>
@@ -39,9 +49,16 @@
 
     </tr>
   </table>
-<div class="results">
-  <div id ="messageBox"></div>
-  <button type="button" id="playAgain" >play again</button>
+
+
+  <div class="results">
+
+
+  <p>First choose X or O then click the play button!</p>
+  <button class="button" id="sx">X</button>
+  <button class="button" id="so">O</button>
+  <br/>
+    <button class="button" id="playAgain" >play</button>
 
 </div>
 

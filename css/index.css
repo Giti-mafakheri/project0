@@ -1,6 +1,4 @@
-#playAgain{
-  color: red;
-}
+
 .container{
   background-image: url(../images/paper.jpg);
   background-repeat: no-repeat;
@@ -11,7 +9,6 @@
   padding: 1em;
   border-radius: 1em;
 }
-
 .board{
   margin: 0 auto;
   padding: 1em;
@@ -66,8 +63,37 @@ div.results{
   margin: 0;
   padding: 0;
   line-height: 75px;
+  cursor: pointer;
+}
+td:hover {
+  background-color: #ccc;
+}
+.button{
+  background-color: #b18686;
+  width: 6em;
+}
+.set{
+
+  margin: auto 138px;
+}
+.setsq{
+  width: 2em;
+  height: 2em;
+}
+#sxx{
+  background-image: url(../images/smallx.png);
+  background-repeat: no-repeat;
+}
+.setsq{
+  background-image: url(../images/tik.jpeg);
+  background-repeat: no-repeat;
+}
+#soo{
+  background-image: url(../images/smallo.png);
+  background-repeat: no-repeat;
 }
 #messageBox{
-  color: red;
-  font-size: 40px;
+  margin: 0px 367px;
+  font-size: x-large;
+    color: magenta;
 }
